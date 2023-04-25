@@ -9,12 +9,12 @@
 
 int main(void)
 {
-	int n = 97;
+	char letter;
 
-	while (n <= 122)
+	for (letter = 'a'; letter <= 'z'; letter++)
 	{
-		putchar(n);
-		n++;
+		putchar(letter);
 	}
+	putchar('\n');
 	return (0);
 }
