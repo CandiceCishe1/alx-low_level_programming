@@ -9,6 +9,6 @@ void swap_int(int *a, int *b)
 {
 	int temp = *a; /* Create a temporary storage for pointer *a */
 
-	*b = temp; /*Stored temp (*a) into *b */
 	*a = *b;
+	*b = temp; /*Stored temp (*a) into *b */
 }
