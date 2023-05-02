@@ -7,17 +7,17 @@
  */
 void puts2(char *str)
 {
-	int count = 0, i = 0;
-	char last_char;
+	int count = 0, i;
 
-	while (*s)
+	while (*str)
 	{
-		s++;
 		count++;
+		str++;
+
 	}
 	while (i < count)
 	{
-		s--;
+		str--;
 		i++;
 	}
 	for (i = 0; i < count; i++)
