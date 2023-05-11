@@ -2,7 +2,7 @@
  * is_prime_number - fuction that returns 1 if the input
  * integer is a prime number, otherwise return 0.
  * @n: number to be tested.
- *
+ * @i: Number to test with
  * Return: 1 if a Prime else 0
  */
 
